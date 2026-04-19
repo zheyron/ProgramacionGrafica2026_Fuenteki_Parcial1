@@ -46,20 +46,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Depth: -5.2
     - _EdgeDistance: 0.82
     - _EdgeFoamTile: 2
     - _EdgeFoamTile1: 1
     - _EdgeLength: 15
     - _EdgePower: 0.562
     - _Float2: 1
-    - _FoamMask: 0.0572
+    - _FoamMask: 0.024853984
+    - _Foam_Speed_X: 0.080000006
+    - _Foam_Speed_Y: 0
     - _NormalPanSpeed1: 0.213
     - _NormalPanSpeed2: 0.184
     - _NormalStrength: 0.56
     - _NormalTile: 0.5
+    - _RefractAmount: 0.1
     - _Scale: 0.8352941
-    - _SeaFoamStrength: 0.36005884
-    - _SeaFoamTile: 0.5
+    - _SeaFoamStrength: 0.629
+    - _SeaFoamTile: 0.1
     - _Tesselation: 8.82
     - _WaveFrequency: 0.316
     - _WaveHeight: 0.127
@@ -69,6 +73,7 @@ Material:
     - _WaveUp_Y: 26
     - __dirty: 0
     m_Colors:
+    - _FoamSpeedDirection: {r: 0.1, g: 0, b: 0, a: 0}
     - _NormalPanDirection1: {r: 1, g: 0, b: 0, a: 0}
     - _NormalPanDirection2: {r: -1, g: 0, b: 0, a: 0}
     - _Speed: {r: 0.5, g: 0.5, b: 0, a: 0}
