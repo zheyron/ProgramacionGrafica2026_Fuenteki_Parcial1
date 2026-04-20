@@ -32,6 +32,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9789d23040cb1fb45ad60392430c3c15, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OverHeightmap1:
+        m_Texture: {fileID: 2800000, guid: 9789d23040cb1fb45ad60392430c3c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverHeightmap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OverText:
         m_Texture: {fileID: 2800000, guid: 662d72b6ec210cf4cbeec2b4d3cb8b2a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -40,12 +48,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: 662d72b6ec210cf4cbeec2b4d3cb8b2a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _UnderHeightmap:
-        m_Texture: {fileID: 2800000, guid: ba7d591f74c9058459631ead92840abe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9f8d9d9e60979574ea22974d2e2c08d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UnderText:
-        m_Texture: {fileID: 2800000, guid: 691a8d46920a79542ad4e36c394b547a, type: 3}
+        m_Texture: {fileID: 2800000, guid: b97db8acddac10d4c867939fcd38e487, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UnderText2:
+        m_Texture: {fileID: 2800000, guid: 662d72b6ec210cf4cbeec2b4d3cb8b2a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -54,12 +70,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BrickHeight: 4.2
+    - _ClampHeight: 1.34
+    - _EdgeLength: 15
     - _Float0: 0
-    - _Float1: 0.17
+    - _Float1: 0.13
     - _HeightLerp: 0.12
+    - _SandHeight: 3.14
     - _TextureLerp: 0.19
     - __dirty: 0
-    - _maxHeight: 0.4
+    - _maxHeight: 1.08
     - _maxHeight1: 0.33
     - _minHeight: 0
     - _minHeight1: 0
