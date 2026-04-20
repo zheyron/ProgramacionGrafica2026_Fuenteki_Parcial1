@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8c015873f57ab746b67e4daa7b08609
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _UnderHeightmap: {fileID: 2800000, guid: b757e85527dfa9340b0a6ad2abe40137, type: 3}
+  - _OverHeightmap: {fileID: 2800000, guid: 9789d23040cb1fb45ad60392430c3c15, type: 3}
+  - _UnderText: {fileID: 2800000, guid: 691a8d46920a79542ad4e36c394b547a, type: 3}
+  - _OverText: {fileID: 2800000, guid: 662d72b6ec210cf4cbeec2b4d3cb8b2a, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
