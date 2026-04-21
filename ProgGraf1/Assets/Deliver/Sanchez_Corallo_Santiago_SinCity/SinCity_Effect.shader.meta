@@ -2,8 +2,7 @@ fileFormatVersion: 2
 guid: b08739d2b3a8aaa41a0a51cb6b45d198
 ShaderImporter:
   externalObjects: {}
-  defaultTextures:
-  - _Orc_BaseColorAlbedo: {fileID: 2800000, guid: a1a2639ca25e19d4d9a5314d004472e4, type: 3}
+  defaultTextures: []
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 
