@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Android_SinCity_Effect
+  m_Shader: {fileID: 4800000, guid: b08739d2b3a8aaa41a0a51cb6b45d198, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 5cffb1b04f25f9e43aee736c74c5a193, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0553e630408736049ba149381ac33616, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTexture:
+        m_Texture: {fileID: 2800000, guid: d8f04b4923a386b4f95563383b2afb0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ASEOutlineWidth: 0.005
+    - _AlbedoAlpha: 0.4
+    - _RimOffset: 0.8
+    - _RimPower: 0.3
+    - _Shadow_Force_Step_1: 0
+    - _Shadow_Force_Step_2: 0.3
+    - _Shadow_Force_Step_3: 0.6
+    - _Shadow_Force_Step_4: 0.9
+    - __dirty: 0
+    - _alphadelerp: 0.5
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorAccent: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0}
+    - _ColorShadow_1: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorShadow_2: {r: 0, g: 1, b: 0.9693308, a: 0}
+    - _ColorTint: {r: 0, g: 0.6421666, b: 1, a: 0}
+    - _Colortint2: {r: 1, g: 1, b: 1, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowColorTint: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
