@@ -30,6 +30,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ASEOutlineWidth: 0.001
     - _Float0: 0.5
     - _Float1: 0.5
     - _Step0: 1
@@ -43,5 +44,7 @@ Material:
     - _outlinethickness: 0.2
     - _outlineticknes: 0.66
     m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FresneloutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _outlineColor: {r: 0.24528301, g: 0.10204014, b: 0.019668924, a: 0}
   m_BuildTextureStacks: []
