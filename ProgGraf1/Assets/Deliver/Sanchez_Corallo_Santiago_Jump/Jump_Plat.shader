@@ -62,7 +62,7 @@ Shader "Jump_Plat"
 			o.Normal = float3(0,0,1);
 			float3 ase_vertex3Pos = mul( unity_WorldToObject, float4( i.worldPos , 1 ) );
 			float mulTime3 = _Time.y * _LineSpeed;
-			float4 HologramEffect15 = ( (0.0 + (sin( ( ( ase_vertex3Pos.y + ( mulTime3 * -1.0 ) ) * ( _Frequency * 6,28318548202515 ) ) ) - -1.0) * (1.0 - 0.0) / (1.0 - -1.0)) * _HologramColor );
+			float4 HologramEffect15 = ( (0.0 + (sin( ( ( ase_vertex3Pos.y + ( mulTime3 * -1.0 ) ) * ( _Frequency * 6.28 ) ) ) - -1.0) * (1.0 - 0.0) / (1.0 - -1.0)) * _HologramColor );
 			o.Emission = HologramEffect15.rgb + 1E-5;
 		}
 
@@ -73,19 +73,18 @@ Shader "Jump_Plat"
 }
 /*ASEBEGIN
 Version=18900
-622;73;934;495;2537.753;-285.6857;2.602611;True;False
-Node;AmplifyShaderEditor.CommentaryNode;1;-1886.309,578.5764;Inherit;False;1919.629;698.8267;Hologram;14;15;14;13;12;11;10;9;8;7;6;5;4;3;2;;1,1,1,1;0;0
+1913;36;1920;975;2285.503;-151.264;1.3;True;False
+Node;AmplifyShaderEditor.CommentaryNode;1;-1886.309,578.5764;Inherit;False;1919.629;698.8267;Hologram;13;15;14;13;12;11;10;9;8;7;5;4;3;2;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.RangedFloatNode;2;-1862.253,869.6583;Inherit;False;Property;_LineSpeed;LineSpeed;2;0;Create;True;0;0;0;False;0;False;0;1;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;3;-1577.488,871.3263;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.PosVertexDataNode;4;-1426.646,667.9838;Inherit;False;0;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;5;-1414.993,977.3754;Inherit;False;Property;_Frequency;Frequency;1;0;Create;True;0;0;0;False;0;False;1;1;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.TauNode;6;-1372.293,1066.476;Inherit;False;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;7;-1399.709,827.5525;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;-1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;8;-1225.293,781.7751;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;9;-1222.294,1010.475;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;9;-1222.294,1010.475;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;6.28;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-1057.496,889.8753;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SinOpNode;11;-884.0382,808.535;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.ColorNode;12;-724.1507,933.7854;Inherit;False;Property;_HologramColor;Hologram Color;0;0;Create;True;0;0;0;False;0;False;1,1,1,0;1,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;12;-724.1507,933.7854;Inherit;False;Property;_HologramColor;Hologram Color;0;0;Create;True;0;0;0;False;0;False;1,1,1,0;1,1,1,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TFHCRemapNode;13;-701.287,718.3862;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;-1;False;2;FLOAT;1;False;3;FLOAT;0;False;4;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;14;-422.3775,813.8033;Inherit;False;2;2;0;FLOAT;0;False;1;COLOR;1,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.RegisterLocalVarNode;15;-209.6943,808.506;Inherit;False;HologramEffect;-1;True;1;0;COLOR;0,0,0,0;False;1;COLOR;0
@@ -96,7 +95,6 @@ WireConnection;7;0;3;0
 WireConnection;8;0;4;2
 WireConnection;8;1;7;0
 WireConnection;9;0;5;0
-WireConnection;9;1;6;0
 WireConnection;10;0;8;0
 WireConnection;10;1;9;0
 WireConnection;11;0;10;0
@@ -106,4 +104,4 @@ WireConnection;14;1;12;0
 WireConnection;15;0;14;0
 WireConnection;0;15;16;0
 ASEEND*/
-//CHKSM=5F50FDC62914023BF00FAF4585EA2B8B437B5BEF
+//CHKSM=6573F1BF1198479C9525C4801A050610AB20A782
