@@ -22,11 +22,14 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _Amount: 0.585
     - _Cutoff: 0.5
     - _Float0: 0.96
     - _Float1: 0.622
-    - _Power: 1.88
-    - _Verticallimit: 0.622
+    - _Lenght: 0.97
+    - _Mask_clip: 0.199
+    - _Power: 10
+    - _Verticallimit: 1
     - __dirty: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
