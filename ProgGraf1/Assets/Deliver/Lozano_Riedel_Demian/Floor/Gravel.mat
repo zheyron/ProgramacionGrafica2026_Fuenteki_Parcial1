@@ -42,11 +42,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Clamp: 1
+    - _ClampHeight: 6.94
     - _EdgeLength: 15
     - _Float0: 1
-    - _HMap1Mult: 0.29
+    - _HMap1Mult: 0.35
     - _HMap2Mult: 0.3
     - _Lerp: 0.16
+    - _LerpHeightmaps: 0.3
+    - _ScaleX: 10
+    - _ScaleY: 10
     - _TessPhongStrength: 0.5
     - __dirty: 0
     m_Colors:
