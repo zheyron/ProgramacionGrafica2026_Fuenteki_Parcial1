@@ -115,10 +115,10 @@ Material:
     - _Float1: 0.13
     - _Float2: 1.53
     - _Float3: 0.21
-    - _HMap1Mult: 0.18
-    - _HMap2Mult: 0.08
+    - _HMap1Mult: 2.22
+    - _HMap2Mult: 0.48
     - _HeightLerp: 0.12
-    - _Lerp: 0.27
+    - _Lerp: 0.78
     - _SandHeight: 1.35
     - _SandHeight1: 1.06
     - _TextureLerp: 0.19
@@ -128,6 +128,8 @@ Material:
     - _minHeight: 0
     - _minHeight1: 0
     m_Colors:
+    - _AlbedoTiling: {r: 0, g: 0, b: 0, a: 0}
     - _Direction: {r: 0, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 30, g: 30, b: 0, a: 0}
+    - _HmapTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

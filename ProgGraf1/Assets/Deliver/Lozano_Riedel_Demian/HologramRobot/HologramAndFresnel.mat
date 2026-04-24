@@ -22,11 +22,13 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _EdgeLength: 15
     - _Frequency: 25
-    - _FresnelPow: 1
+    - _FresnelPow: 0.7
     - _FresnelPower: 0
     - _FresnelScale: 0
-    - _LineSpeed: 1
+    - _LineSpeed: 0.03
+    - _Tessellation: 4.7
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
