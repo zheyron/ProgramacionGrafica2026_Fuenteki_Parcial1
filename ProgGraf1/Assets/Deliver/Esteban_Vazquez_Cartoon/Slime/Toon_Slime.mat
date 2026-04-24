@@ -34,5 +34,6 @@ Material:
     - _TessPhongStrength: 0.5
     - __dirty: 0
     m_Colors:
+    - _BaseColor: {r: 0.09624801, g: 0.5299825, b: 0.90800005, a: 1}
     - _Color0: {r: 0.09624801, g: 0.5299825, b: 0.90800005, a: 1}
   m_BuildTextureStacks: []

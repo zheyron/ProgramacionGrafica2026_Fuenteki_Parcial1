@@ -27,7 +27,7 @@ Material:
     - _Float0: 0.96
     - _Float1: 0.622
     - _Lenght: 0.97
-    - _Mask_clip: 0.199
+    - _Mask_clip: 0.38
     - _Power: 10
     - _Verticallimit: 1
     - __dirty: 0

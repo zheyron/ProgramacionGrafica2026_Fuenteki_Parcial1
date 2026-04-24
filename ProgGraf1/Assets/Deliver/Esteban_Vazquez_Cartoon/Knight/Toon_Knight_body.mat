@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: 610d0fcaed074b745b495cfa2dfa96f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture0:
         m_Texture: {fileID: 2800000, guid: 610d0fcaed074b745b495cfa2dfa96f1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -33,6 +37,7 @@ Material:
     - _ASEOutlineWidth: 0.001
     - _Float0: 0.5
     - _Float1: 0.5
+    - _FresnelOutlinethickness: 0.252
     - _Step0: 1
     - _Step1: 0
     - _Step2: 0.194
