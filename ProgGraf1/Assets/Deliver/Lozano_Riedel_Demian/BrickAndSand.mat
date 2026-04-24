@@ -52,6 +52,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _UnderHeightmap:
         m_Texture: {fileID: 2800000, guid: 9f8d9d9e60979574ea22974d2e2c08d4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -74,13 +82,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BrickHeight: 2
+    - _BrickHeight: 6.54
     - _ClampHeight: 1
     - _EdgeLength: 15
     - _Float0: 0
     - _Float1: 0.13
     - _HeightLerp: 0.12
-    - _SandHeight: 3.03
+    - _SandHeight: 1.39
     - _TextureLerp: 0.19
     - __dirty: 0
     - _maxHeight: 1.08
