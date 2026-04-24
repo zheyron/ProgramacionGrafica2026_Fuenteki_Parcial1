@@ -78,9 +78,10 @@ Material:
     - _NonMetallicMetallic: 0.7
     - _Occlusion: 0
     - _RimOffset: 0.8
-    - _RimOffset1: 0.8
+    - _RimOffset1: 0.762
     - _RimPower: 0
-    - _RimPower1: 0.1
+    - _RimPower1: 0.886
+    - _Rimcirclerange1: 1.2
     - _RoughnessMetallic: 0.7
     - _ScaleOffset: 0.5
     - _Shadow_Force_Step_1: 0
